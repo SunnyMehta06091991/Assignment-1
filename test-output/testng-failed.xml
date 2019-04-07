@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Zoopla Application Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Zoopla App Test Cases(failed)">
+    <classes>
+      <class name="com.zoopla.qa.testcases.SalePageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setUp"/>
+          <include name="printAgentLogoDisplayed"/>
+        </methods>
+      </class> <!-- com.zoopla.qa.testcases.SalePageTest -->
+      <class name="com.zoopla.qa.testcases.AgentNameDetailsTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="teardown"/>
+          <include name="printAgentAddressDetails"/>
+        </methods>
+      </class> <!-- com.zoopla.qa.testcases.AgentNameDetailsTest -->
+    </classes>
+  </test> <!-- Zoopla App Test Cases(failed) -->
+</suite> <!-- Failed suite [Zoopla Application Test Automation Test Suite] -->
